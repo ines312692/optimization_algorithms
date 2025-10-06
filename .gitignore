@@ -1,10 +1,11 @@
-GITIGNORE = """
 __pycache__/
 *.py[cod]
 *.so
 .Python
+.env
 env/
 venv/
+.venv/
 *.egg-info/
 dist/
 build/
@@ -12,4 +13,3 @@ build/
 .DS_Store
 data/results/*.png
 data/results/*.csv
-"""
