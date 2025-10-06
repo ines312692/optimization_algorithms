@@ -1,0 +1,15 @@
+GITIGNORE = """
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.DS_Store
+data/results/*.png
+data/results/*.csv
+"""
